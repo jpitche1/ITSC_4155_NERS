@@ -1,4 +1,5 @@
 import pandas as pd
+import random
 import uuid
 
 
@@ -39,6 +40,19 @@ class Database:
         df_names['meaning'] = None
         df_names['descriptor'] = None
         df_names['title'] = None
+
+        # generate dummy tags 
+        roles = ["doctor", "teacher", "nurse", "clerk", None]
+        meanings = ["full of sorrow", "warrior", "daisy flower", "pillar of strength", None]
+        descriptors = ["kind", "shrewd", "troubled", "enthusiastic", None]
+        titles = ["Sr.", "Jr.", None, None, None]
+
+        for i in range(len(df_names)):
+            df_names.iloc[i, df_names.columns.get_loc('role')] = roles[random.randint(0, 4)]
+            df_names.iloc[i, df_names.columns.get_loc('meaning')] = meanings[random.randint(0, 4)]
+            df_names.iloc[i, df_names.columns.get_loc('descriptor')] = descriptors[random.randint(0, 4)]
+            df_names.iloc[i, df_names.columns.get_loc('title')] = titles[random.randint(0, 4)]
+
 
         self.database = df_names
 
