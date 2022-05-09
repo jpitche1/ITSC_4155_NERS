@@ -1,2 +1,2 @@
-# ITCS_4155_NERA
-ITCS 4155 senior design project
+# ITSC_4155_NERS
+ITSC 4155 senior design project
