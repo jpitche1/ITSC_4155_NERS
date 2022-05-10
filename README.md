@@ -1,5 +1,5 @@
 # Named Entity Recognition System 
-### University of North Carolina at Charlotte | ITSC 4155-051 Software Development Projects | Spring 2022
+#### University of North Carolina at Charlotte | ITSC 4155-051 Software Development Projects | Spring 2022
 
 *Prototype for a National Security Agency patented technology developed under a Cooperative Research and Development Agreement (CRADA) with NSA*
 
