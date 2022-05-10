@@ -31,3 +31,6 @@ Our product implements a patented method of database searching (from NSA) that i
 
   https://user-images.githubusercontent.com/47066075/167522712-b5ae0efe-4f8c-4a5d-a7aa-596a5d79a9d2.mov
 
+## Contact Information
+For more information, please contact Jasmin Pitcher at jasmin.a.pitcher@gmail.com
+
