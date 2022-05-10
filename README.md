@@ -11,3 +11,8 @@ Our product implements a patented method of database searching (from NSA) that i
 
 <img width="797" alt="Use_Case_Diagram" src="https://user-images.githubusercontent.com/47066075/167520593-53b6c71c-f707-4e3e-bc50-780fadbc33b9.png">
 <img width="1092" alt="Statechart_Behavioral_Diagram" src="https://user-images.githubusercontent.com/47066075/167522566-81972da8-b29a-4248-aab0-369f09095cb7.png">
+
+# Lo-fi Prototype
+
+https://user-images.githubusercontent.com/47066075/167522712-b5ae0efe-4f8c-4a5d-a7aa-596a5d79a9d2.mov
+
