@@ -7,6 +7,9 @@ In a global economy where data is increasingly valuable, we want to help you man
 
 Our product implements a patented method of database searching (from NSA) that is tailored to efficiently search multiple input terms, where each term has multiple alternative spellings. This allows us to account for variant spellings, partial names, and other missing or erroneous information. In addition, our database stores other identifying information along with each name, to use for finding expressions that refer to that individual in a document. 
 
+# [NSA Showcase Presentation](https://docs.google.com/presentation/d/1iP5R9ZvVdZ2WyNKu3RXvpAidRnvF9tfe8a2Bp_zQgzk/edit?pli=1#slide=id.g95b76c843b_0_238)
+
+
 # UML Diagrams
 
 <img width="797" alt="Use_Case_Diagram" src="https://user-images.githubusercontent.com/47066075/167520593-53b6c71c-f707-4e3e-bc50-780fadbc33b9.png">
