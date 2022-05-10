@@ -1,4 +1,4 @@
-![Named Entity Recognition System  NSA Showcase Deck](https://user-images.githubusercontent.com/47066075/167522127-2441199c-cada-43fb-8bca-4e682be5a013.png)
+![Named Entity Recognition System  NSA Showcase Deck](https://user-images.githubusercontent.com/47066075/167524670-7d3ba166-056b-4d2c-a905-149adf07cc9e.png)
 
 # Project Pitch
 The name of our product is Named Entity Recognition System and it is helpful for any company invested in the business of personal data. It is an application to help users identify a specific person in a document out of a long list of potential matches. Without a capability of this nature, this task could be extremely difficult if working with a large dataset of individuals. 
