@@ -153,8 +153,6 @@ class Database:
                     searchTerm += self.database[str(r)].iloc[row] + " "
         searchTerm = searchTerm.strip()
 
-        print(searchTerm)
-
         return searchTerm, entryID
 
     # searches through name (1, 2, 3, 4) columns for values containing input
