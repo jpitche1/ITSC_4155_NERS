@@ -86,7 +86,7 @@ class Database:
     def validateInput(self, userInput: str):
         # gets search string from user
         if not userInput:
-            print("Input can not be empty")
+            print("Input cannot be empty")
             userInput = input("Enter search string: ")
 
         # claim 1b - 4
@@ -149,13 +149,13 @@ class Database:
         searchTerm = ""
         for r in range(10):
             if str(r) in self.database.columns:
-                if self.database[str(r)].iloc[0] is not None:
-                    searchTerm += self.database[str(r)].iloc[0] + " "
+                if self.database[str(r)].iloc[row] is not None:
+                    searchTerm += self.database[str(r)].iloc[row] + " "
         searchTerm = searchTerm.strip()
 
-        self.validateInput(searchTerm)
-        self.search()
-        return entryID, self.results
+        print(searchTerm)
+
+        return searchTerm, entryID
 
     # searches through name (1, 2, 3, 4) columns for values containing input
     # jon will return jonathan
@@ -167,7 +167,7 @@ class Database:
     """
     def search(self, case=False):
 
-        # checks if there is user input yet. If not then gets user input
+        # checks if there is user input yet. If not then get user input
         if not self.userInput:
             self.validateInput()
 
